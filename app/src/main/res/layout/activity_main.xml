@@ -37,7 +37,7 @@
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
+            android:layout_height="150dp"
             android:divider="#AAAAAA"
             android:dividerHeight="0.5dp" />
 
@@ -68,7 +68,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="16:00"
-        android:backgroundTint="#777777" />
+        android:backgroundTint="#777777"
+        android:ems="10"
+        android:inputType="time" />
+
     <Button
         android:id="@+id/btnOK"
         android:layout_width="wrap_content"
